@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -56,6 +59,7 @@ body{
 
 .header span{
     display: block;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header span:nth-child(1){
@@ -70,10 +74,6 @@ body{
     line-height: 4rem;
 }
 
-.navbar{
-    width: 100%;
-}
-
 .nav-section{
     padding: 2rem;
 }
@@ -81,6 +81,8 @@ body{
 .nav-section a{
     color: #f6e1c5;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 
 .active{
@@ -109,14 +111,20 @@ body{
     padding: 3rem;
 }
 
-.section-div .content-head span:nth-child(1){
+.content-head{
+    font-family: 'Raleway', sans-serif;
+}
+
+.content-head span{
     display: block;
+}
+
+.section-div .content-head span:nth-child(1){
     font-size: 1rem;
     font-weight: 800;
 }
 
 .section-div .content-head span:nth-child(2){
-    display: block;
     font-size: 3rem;
     font-weight: 100;
 }
@@ -130,6 +138,7 @@ body{
 
 .content-body{
     margin: 1rem;
+    font-family: 'Lora';
 }
 
 .content-body p{
@@ -141,12 +150,12 @@ body{
     padding: 2rem;
     color: #000;
     background-color: #e6a756;
-    border-color: #e6a756;
     position: absolute;
     right: 0;
     left: 0;
     margin: auto;
     border-radius: 10px;
+    font-weight: 700;
 }
 
 .orange-section{
@@ -155,7 +164,6 @@ body{
 
 .promise-section{
     height: 28rem;
-    padding: 5px;
 }
 
 .promise-container::before{
@@ -185,7 +193,6 @@ body{
 
 .promise-h1{
     font-size: 16px;
-    font-family: 'Raleway';
     font-weight: 800 !important;
     color: #212529;
 }
@@ -194,15 +201,12 @@ body{
     font-size: 48px;
     font-weight:lighter;
     margin-bottom: 1.5rem;
-    font-family: 'Raleway';
     color: #212529;
 }
 
 .promise-p{
     text-align: center;
     font-size: 16px;
-    font-family: 'Lora';
-    line-height: 1.75;
 }
 
 .about-img{
@@ -252,7 +256,7 @@ body{
 
 .product-section{
     margin-top: 7rem;
-    margin-bottom: 15rem;
+    margin-bottom: 17rem;
 }
 
 .product-section img{
